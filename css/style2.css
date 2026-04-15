@@ -1,0 +1,50 @@
+﻿
+body{
+	background-color: #e9ecef;
+	padding: 20px;
+}
+#container{
+	width: 800px;
+	margin:  auto;
+	background-color: #ffff;
+	padding: 30px 40px;
+	color: none;
+	border-radius: 10px;
+}
+
+h2{
+	text-align :center;
+	padding: 10px;
+	background-color: #414040;
+	color: #e9ecef;
+	
+}
+#fLog{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.f-control{
+	width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   box-sizing: border-box;
+}
+#but{
+	text-align:right;
+}
+
+.button1{
+	background-color:rgb(0, 0, 0);
+	border-radius: 10px;
+	color:#e9ecef;
+	padding: 10px;
+}
+.button2{
+	background-color:rgb(255, 255, 255);
+	border-radius: 10px;
+	color:#000000;
+	padding: 10px;
+}
