@@ -1,6 +1,6 @@
 ﻿
 body{
-	background-color: #e9ecef;
+	background-color: #c9dff5;
 	padding: 20px;
 }
 #container{
@@ -10,18 +10,20 @@ body{
 	padding: 30px 40px;
 	color: none;
 	border-radius: 10px;
+	border-left: 30px solid #317dc9;
 }
 
 h1{
 	text-align :center;
 	padding: 10px;
-	background-color: #414040;
-	color: #e9ecef;
+	
+	color: #206ab4;
 	
 }
 #fLog{
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 20px;
+	padding-right: 30px;
+	
 }
 .f-control{
 	width: 100%;
@@ -31,6 +33,11 @@ h1{
   border: 1px solid #ccc;
   border-radius: 4px;
    box-sizing: border-box;
+}
+.f-controlK{
+  padding-left: 30px;
+  margin-bottom: 20px ;
+  border: 1px solid #ccc;
 }
 #but{
 	text-align:right;
