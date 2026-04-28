@@ -9,7 +9,7 @@
 		<div id="container">
             <button type="button" onclick ="add();">Thêm</button>
         </div>    
-        <div class="row">
+        <div id="hienthi" class="row">
 
         </div>
         <script>
@@ -18,8 +18,9 @@
                 myRow.setAttribute("class","row");
                 const myText =document.createTextNode("haha");
                 myRow.appendChild(myText);
-    
+                document.getElementById("hienthi").appendChild(myRow);
             }
+            
         </script>
 	</body>
 </html>
