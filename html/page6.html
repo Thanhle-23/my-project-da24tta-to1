@@ -7,7 +7,7 @@
 	</head>
 	<body>
 		<div id="container">
-            <button type="button" onclick ="add();">Thêm</button>
+            <button type="button" onclick ="add();">Thêm môn</button>
         </div>    
         <div id="hienthi" class="row">
 
@@ -16,8 +16,19 @@
             function add(){
                 const myRow = document.createElement("div");
                 myRow.setAttribute("class","row");
-                const myText =document.createTextNode("haha");
-                myRow.appendChild(myText);
+                const tenmon =document.createElement("input");
+                tenmon.placeholder = "Tên môn";
+                const tinchi =document.createElement("input");
+                tinchi.type = "number";
+                tinchi.placeholder = "Tín chỉ";
+                const xoa =document.createElement("button");
+                xoa.innerText = "Xóa";
+                xoa.onclick = function(){
+                    myRow.remove();
+                };
+                myRow.appendChild(tenmon);
+                myRow.appendChild(tinchi);
+                myRow.appendChild(xoa);
                 document.getElementById("hienthi").appendChild(myRow);
             }
             
